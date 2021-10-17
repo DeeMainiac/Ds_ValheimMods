@@ -1,4 +1,4 @@
-﻿using BepInEx;
+using BepInEx;
 using BepInEx.Configuration;
 using Jotunn.Configs;
 using Jotunn.Entities;
@@ -32,15 +32,13 @@ namespace SeafloorWalkingBoots {
         public const string PluginName = "SeafloorWalkingBoots";
         public const string PluginVersion = "1.0.0";
 
-        // Use this class to add your own localization to the game
-        // https://valheim-modding.github.io/Jotunn/tutorials/localization.html
         public static CustomLocalization Localization;
 
         private ItemDrop lozIronBoots;
         CustomStatusEffect bootsEffect;
-
         
-        private readonly string SpriteLocations = "E:/ValheimModding/SeafloorWalkingBoots/Assets/";
+        // /hardcoded place where the image file is. Make sure to change this if you copy the code
+        private readonly string SpriteLocations = "";
 
         private void Awake() {
 
@@ -91,8 +89,11 @@ namespace SeafloorWalkingBoots {
             Recipe recipe = ScriptableObject.CreateInstance<Recipe>();
             recipe.name = "Recipe_ironboots";
             recipe.m_item = lozIronBoots;
+
+            // /crafting station to make/repair it at
             recipe.m_craftingStation = PrefabManager.Cache.GetPrefab<CraftingStation>("forge");
 
+            // /crafting recipe for it
             recipe.m_resources = new Piece.Requirement[]{
 
                 new Piece.Requirement() {
