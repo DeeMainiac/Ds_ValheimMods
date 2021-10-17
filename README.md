@@ -1,7 +1,7 @@
 # Seafloor Walking Boots
 Small mod for Valheim. Adds special craftable boots to walk on the bottom of the sea with.
 
-Requires [Jötunn The Valheim Library](https://www.nexusmods.com/valheim/mods/1138).
+Requires [Jötunn](https://www.nexusmods.com/valheim/mods/1138).
 
 Tired of not being able to build a cool dock from the shores to the depths, a massive landbridge across the seas, or even an underwater city? Get the Seafloor Walking Boots! Equip them to traverse the seafloor in safety and build your dreams from the ground up!
 
