@@ -7,6 +7,8 @@ Tired of not being able to build a cool dock from the shores to the depths, a ma
 
 I don't recommend you equip them and jump into the water, as fall damage is still a thing. Feel free to unequip them and float to the surface, assuming that you don't think you'll drown. By default, you cannot requip the boots if you are swimming.
 
+I don't really plan on making the resources balanced really, since they're quite OP and defeat the purpose of boats to cross bodies of water.
+
 # How to Install/Uninstall
 Download __SeafloorWalkingBoots.dll__ and place it in your BepInEx/plugins folder.
 
