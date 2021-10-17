@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +13,10 @@ namespace SeafloorWalkingBoots {
 
         public override void Setup(Character character) {
 
-            // /makes player act like a draugr in the sense that they don't know how to swim
+            // /"What's swimming? never heard of that skill"
             Player.m_localPlayer.m_canSwim = false;
 
-            // /camera magic that allows camera to go below water. normally .3f
+            // /camera magic that allows camera to go below water. Ruins the cool water shader tho. Normally .3f
             Camera.main.GetComponent<GameCamera>().m_minWaterDistance = -30f;
 
             base.Setup(character);
@@ -24,6 +24,7 @@ namespace SeafloorWalkingBoots {
 
         public override void Stop() {
 
+            // /"Man I love swimming"
 			Player.m_localPlayer.m_canSwim = true;
 
             // /hardcoding values, gotta love it
