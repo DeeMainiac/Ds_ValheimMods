@@ -10,7 +10,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Logger = Jotunn.Logger;
-
+ 
 /// <summary>
 /// Seafloor Walking Boots
 /// 
