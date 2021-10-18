@@ -1,4 +1,8 @@
-# Seafloor Walking Boots
+# DeeMainiac's Valheim mods
+
+Here's my valheim mods. Each one of them has a folder, but all of their 'assets' are in the Assets folder.
+
+## Seafloor Walking Boots
 Small mod for Valheim. Adds special craftable boots to walk on the bottom of the sea with.
 
 Requires [Jötunn](https://www.nexusmods.com/valheim/mods/1138).
@@ -9,7 +13,7 @@ I don't recommend you equip them and jump into the water, as fall damage is stil
 
 I don't really plan on making the resources balanced really, since they're quite OP and defeat the purpose of boats to cross bodies of water.
 
-# How to Install/Uninstall
+## How to Install/Uninstall
 Download __SeafloorWalkingBoots.dll__ and place it in your BepInEx/plugins folder.
 
 To Uninstall, delete __SeafloorWalkingBoots.dll__.
