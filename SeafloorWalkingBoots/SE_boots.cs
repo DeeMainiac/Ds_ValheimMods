@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+ 
 namespace SeafloorWalkingBoots {
     /// <summary>
     /// Custom StatusEffect that enables seafloor walking while wearing the boots
