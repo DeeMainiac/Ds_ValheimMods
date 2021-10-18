@@ -3,7 +3,7 @@
 Here's my valheim mods. Each one of them has a folder, but all of their 'assets' are in the Assets folder.
 
 ## Seafloor Walking Boots
-Small mod for Valheim. Adds special craftable boots to walk on the bottom of the sea with.
+Small mod. Adds special craftable boots to walk on the bottom of the sea with.
 
 Requires [Jötunn](https://www.nexusmods.com/valheim/mods/1138).
 
