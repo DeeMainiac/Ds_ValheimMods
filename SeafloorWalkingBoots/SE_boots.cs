@@ -17,7 +17,7 @@ namespace SeafloorWalkingBoots {
             Player.m_localPlayer.m_canSwim = false;
 
             // /camera magic that allows camera to go below water. Ruins the cool water shader tho. Normally .3f
-            Camera.main.GetComponent<GameCamera>().m_minWaterDistance = -30f;
+            Camera.main.GetComponent<GameCamera>().m_minWaterDistance = -50f;
 
             base.Setup(character);
         }
