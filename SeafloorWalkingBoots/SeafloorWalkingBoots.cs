@@ -30,7 +30,7 @@ namespace SeafloorWalkingBoots {
     internal class SeafloorWalkingBoots : BaseUnityPlugin {
         public const string PluginGUID = "deemainiac.seafloorwalkingboots";
         public const string PluginName = "SeafloorWalkingBoots";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         public static CustomLocalization Localization;
 
