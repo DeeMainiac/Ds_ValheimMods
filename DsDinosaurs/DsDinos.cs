@@ -30,7 +30,6 @@ namespace DsDinos
         // /Dinosaurs
 
         /// <summary>
-        /// (stygi - moloch) hateful sacrifice.
         /// Thought to be a juvenile Patchycephalosaurus, this dome-headed herbivore primarily consumes fruits, leaves, and seeds.
         /// </summary>
         private static GameObject stygi;
