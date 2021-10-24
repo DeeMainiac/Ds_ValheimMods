@@ -2,7 +2,7 @@
 
 Here's my valheim mods. Each one of them has a folder, but all of their 'assets' are in the Assets folder.
 
-## Seafloor Walking Boots
+# Seafloor Walking Boots
 Small mod. Adds special craftable boots to walk on the bottom of the sea with.
 
 Requires [Jötunn](https://www.nexusmods.com/valheim/mods/1138).
@@ -20,6 +20,10 @@ Download __SeafloorWalkingBoots.dll__ and place it in your BepInEx/plugins folde
 
 To Uninstall, delete __SeafloorWalkingBoots.dll__.
 
-# Credits
+## Credits
 
 Boots icon by Lorc under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) found [here](https://game-icons.net/1x1/lorc/boots.html)
+
+# D's Dinosaurs
+
+work in progress. Dinosaurs!
