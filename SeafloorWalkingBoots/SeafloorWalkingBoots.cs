@@ -25,12 +25,12 @@ using Logger = Jotunn.Logger;
 namespace SeafloorWalkingBoots {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(Jotunn.Main.ModGuid)]
-    [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Major)]
+    [NetworkCompatibility(CompatibilityLevel.ServerMustHaveMod, VersionStrictness.Major)]
     
     internal class SeafloorWalkingBoots : BaseUnityPlugin {
         public const string PluginGUID = "deemainiac.seafloorwalkingboots";
         public const string PluginName = "SeafloorWalkingBoots";
-        public const string PluginVersion = "1.0.1";
+        public const string PluginVersion = "1.0.2";
 
         public static CustomLocalization Localization;
 
